@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactContext from '../context/ReactContext' // Adjust the import path
+import ReactContext from '../context/ReactContext' 
 import {Chrono} from 'react-chrono'
 import Item from "../Item"
 import Header from "../Header"

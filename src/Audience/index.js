@@ -2,7 +2,7 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 import MyCarousel from '../carousel';
-import ReactContext from '../context/ReactContext' // Adjust the import path
+import ReactContext from '../context/ReactContext'
 import "./index.css";
 
 const Audience = () => {
