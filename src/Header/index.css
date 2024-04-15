@@ -1,0 +1,125 @@
+.navContainer {
+    background-color: #D6D6D6 !important; /* Set background color */
+    border-radius: 70px;
+    padding: 10px 20px;
+}
+.inputsearch{
+    border:none;
+    width:125px;
+    height:40px;
+    border-radius:40px;
+    margin-top:5px;
+}
+.head{
+    font-size:30px;
+    margin-top:10px;
+}
+
+.margin {
+    margin-left: auto;
+}
+
+.brand {
+    color: #000; /* Set brand text color */
+}
+.navbar-con{
+    display:flex;
+    flex-direction:row;
+}
+.search-wrapper {
+    display:flex;
+    flex-direction:row;
+    border-radius:40px;
+    background-color:white;
+    position: relative;
+    margin-left:30px;
+}
+.icon-cart{
+    margin-top:20px;
+}
+.icon-about{
+    margin-top:11px;
+}
+.icon-contact{
+    margin-top:11px;
+}
+
+.search-icon{
+    width:15px;
+    height:15px;
+    margin-left:15px;
+    margin-right:10px;
+    margin-top:20px;
+}
+.size {
+    color: #000; /* Set toggle button color */
+}
+
+.nav-link {
+    color: #000 !important; /* Set nav link text color */
+}
+
+.nav-link .nav-text {
+    margin-left: 5px; /* Add margin between icon and text */
+}
+
+.loginButton {
+    background-color: #D6D6D6; /* Set button background color */
+    color: #000; /* Set button text color */
+    border: 1px solid #000; /* Add border */
+    padding: 8px 16px; /* Adjust button padding */
+    border-radius: 20px; /* Add border radius */
+    display: flex;
+    align-items: center;
+}
+
+.loginButton:hover {
+    background-color: #ccc; /* Change button background color on hover */
+}
+@media (max-width: 768px) {
+    .navbar-con {
+        flex-direction: column;
+        align-items: center;
+    }
+    .search-wrapper {
+        margin: 10px auto;
+    }
+    .navContainer {
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    .inputsearch {
+        width: 50px;
+    }
+    .search-icon {
+        margin-top: 20px;
+    }
+    .icon-cart,
+    .icon-about,
+    .icon-contact {
+        margin-top: 0;
+    }
+    .margin {
+        margin: 0 auto;
+    }
+    .nav-link {
+        padding: 5px 0 !important;
+        text-align: center;
+    }
+    .nav-link .nav-text {
+        display: none;
+    }
+    .loginButton {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {
+    .head {
+        font-size: 24px;
+    }
+}

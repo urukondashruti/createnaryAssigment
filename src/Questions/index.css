@@ -1,0 +1,51 @@
+/* Default styles */
+.frequent-head {
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Arial;
+    color: black;
+}
+
+.para-ans {
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.doc-para {
+    font-size: 20px;
+    font-family: Arial;
+    color: #4A508E;
+}
+
+.headings-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px; /* Add some bottom margin */
+}
+
+.unordered-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Remove default padding */
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    .frequent-head {
+        font-size: 25px; /* Decrease font size for smaller screens */
+    }
+
+    .para-ans,
+    .doc-para {
+        font-size: 18px; /* Decrease font size for smaller screens */
+    }
+
+    .headings-con {
+        margin-bottom: 20px; /* Decrease bottom margin for smaller screens */
+    }
+}

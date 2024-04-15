@@ -1,0 +1,54 @@
+.audience-con {
+    background-color: #4A508E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.audience-head {
+    color: white;
+    font-family: Arial;
+    font-size: 30px; /* Default font size */
+}
+
+.audience-para {
+    color: white;
+    font-family: Arial;
+    font-size: 18px; /* Default font size */
+}
+
+.try-button {
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .audience-head {
+        font-size: 25px; /* Decrease font size for smaller screens */
+    }
+    .audience-para {
+        font-size: 15px; /* Decrease font size for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .audience-con {
+        padding: 20px; /* Decrease padding for smaller screens */
+    }
+    .audience-head {
+        font-size: 20px; /* Further decrease font size for smaller screens */
+    }
+    .audience-para {
+        font-size: 12px; /* Further decrease font size for smaller screens */
+    }
+    .try-button {
+        height: 30px; /* Decrease button height for smaller screens */
+        width: 120px; /* Decrease button width for smaller screens */
+    }
+}

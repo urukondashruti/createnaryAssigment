@@ -1,0 +1,57 @@
+/* Default styles */
+.footer-con {
+    background: #4A508E;
+    padding: 20px 0; /* Adjust padding */
+}
+
+.paras-con, .contact-con {
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    margin-bottom: 20px; /* Add bottom margin for better spacing */
+    margin-top:30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start; /* Align items to the start */
+    flex-wrap: wrap; /* Allow items to wrap */
+    padding: 20px 0; /* Adjust padding */
+}
+
+.icons {
+    margin-right: 10px;
+}
+
+.bottom-heading {
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 20px; /* Add top margin */
+    padding-bottom: 20px;
+}
+
+.horizontal {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Change direction to column for smaller screens */
+        align-items: center; /* Center items */
+    }
+
+    .paras-con, .contact-con {
+        text-align: center; /* Center text for smaller screens */
+    }
+
+    .bottom-heading {
+        font-size: 13px; /* Decrease font size for smaller screens */
+    }
+}
